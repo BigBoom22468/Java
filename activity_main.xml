@@ -1,0 +1,246 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et1"
+        android:hint="Ввод х..."
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et2"
+        android:hint="@string/num"
+        android:layout_below="@+id/et1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et3"
+        android:hint="@string/num"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et4"
+        android:hint="@string/num"
+        android:layout_below="@+id/et3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et5"
+        android:hint="@string/num"
+        android:layout_below="@+id/et4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et6"
+        android:hint="@string/num"
+        android:layout_below="@+id/et5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et7"
+        android:hint="@string/num"
+        android:layout_below="@+id/et6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et8"
+        android:hint="@string/num"
+        android:layout_below="@+id/et7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et9"
+        android:hint="@string/num"
+        android:layout_below="@+id/et8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/et10"
+        android:hint="@string/num"
+        android:layout_below="@+id/et9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="1dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt1"
+        android:hint="Ввод у..."
+
+        android:layout_alignBaseline="@+id/et1"
+        android:layout_alignBottom="@+id/et1"
+        android:layout_toRightOf="@+id/et1"
+        android:layout_toEndOf="@+id/et1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt2"
+        android:hint="@string/num"
+        android:layout_below="@+id/rt1"
+        android:layout_alignBaseline="@+id/et2"
+        android:layout_alignBottom="@+id/et2"
+        android:layout_toRightOf="@+id/et2"
+        android:layout_toEndOf="@+id/et2"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt3"
+        android:hint="@string/num"
+        android:layout_below="@+id/rt2"
+        android:layout_alignBaseline="@+id/et3"
+        android:layout_alignBottom="@+id/et3"
+        android:layout_toRightOf="@+id/et3"
+        android:layout_toEndOf="@+id/et3"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt4"
+        android:hint="@string/num"
+        android:layout_below="@+id/rt3"
+        android:layout_alignBaseline="@+id/et4"
+        android:layout_alignBottom="@+id/et4"
+        android:layout_toRightOf="@+id/et4"
+        android:layout_toEndOf="@+id/et4"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt5"
+        android:hint="@string/num"
+        android:layout_below="@+id/rt4"
+        android:layout_alignBaseline="@+id/et5"
+        android:layout_alignBottom="@+id/et5"
+        android:layout_toRightOf="@+id/et5"
+        android:layout_toEndOf="@+id/et5"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt6"
+        android:hint="@string/num"
+        android:layout_below="@+id/rt5"
+        android:layout_alignBaseline="@+id/et6"
+        android:layout_alignBottom="@+id/et6"
+        android:layout_toRightOf="@+id/et6"
+        android:layout_toEndOf="@+id/et6"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt7"
+        android:hint="@string/num"
+        android:layout_below="@+id/rt6"
+        android:layout_alignBaseline="@+id/et7"
+        android:layout_alignBottom="@+id/et7"
+        android:layout_toRightOf="@+id/et7"
+        android:layout_toEndOf="@+id/et7"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt8"
+        android:hint="@string/num"
+        android:layout_below="@+id/rt7"
+        android:layout_alignBaseline="@+id/et8"
+        android:layout_alignBottom="@+id/et8"
+        android:layout_toRightOf="@+id/et8"
+        android:layout_toEndOf="@+id/et8"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt9"
+        android:hint="@string/num"
+        android:layout_below="@+id/rt8"
+        android:layout_alignBaseline="@+id/et9"
+        android:layout_alignBottom="@+id/et9"
+        android:layout_toRightOf="@+id/et9"
+        android:layout_toEndOf="@+id/et9"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/rt10"
+        android:hint="@string/num"
+        android:layout_below="@+id/rt9"
+        android:layout_alignBaseline="@+id/et10"
+        android:layout_alignBottom="@+id/et10"
+        android:layout_toRightOf="@+id/et10"
+        android:layout_toEndOf="@+id/et10"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="33dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="20pt"
+        android:id="@+id/result"
+        android:text="Results"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:layout_width="60pt"
+        android:layout_height="20pt"
+        android:id="@+id/plus"
+        android:text="result"
+        android:textSize="7pt"
+        android:layout_below="@+id/et10"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:id="@+id/number"
+        android:hint="количество т."
+        android:layout_below="@+id/rt10"
+        android:textSize="5pt"
+        android:layout_toRightOf="@+id/plus"
+        android:layout_toEndOf="@+id/plus"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp" />
+
+
+
+</RelativeLayout>
+
